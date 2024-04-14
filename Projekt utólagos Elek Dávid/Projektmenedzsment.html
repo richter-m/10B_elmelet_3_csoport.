@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Projektmenedzsment Alapok</title>
+    <link rel="stylesheet" href="Projetmenedzsment.css">
+</head>
+<body>
+
+    <div class="page-header">
+        <h1>Projektmenedzsment</h1>
+    </div>
+
+    <nav id="navbar">
+        <button onclick="scrollToElement('introduction')">Bevezetés</button>
+        <button onclick="scrollToElement('phases')">Fázisok</button>
+        <button onclick="scrollToElement('role')">Szerepek</button>
+        <button onclick="scrollToElement('tools')">Eszközök</button>
+        <button onclick="scrollToElement('challenges')">Kihívások</button>
+    </nav>
+
+    <header id="introduction">
+        <h2>Bevezetés a Projektmenedzsmentbe</h2>
+        <p>A projektmenedzsment kulcsfontosságú szerepet játszik a vállalkozások sikeres működésében. Ez egy multidiszciplináris terület, amely megköveteli a stratégiai tervezést, az erőforrás-gazdálkodást, a kockázatkezelést és az emberi tényezők értelmezését. Egy projekt menedzsere a projekt teljes életciklusát koordinálja, a kezdeti koncepciótól a zárásig, beleértve a költségvetési és időkeretek betartását is.</p>
+        <img src="Bevezetés.jpg" alt="Stratégiai menedzsment">
+    </header>
+
+    <section id="phases">
+        <h2>A Projektmenedzsment Fázisai</h2>
+        <p>A projektmenedzsment folyamata során több kulcsfontosságú fázison megy keresztül a projekt: az indítástól, amikor az alapötletet meghatározzák, a tervezésen és a végrehajtáson át, ahol a projektterv megvalósul, egészen az ellenőrzésig és a projekt zárásáig. Mindegyik szakasz más-más kihívásokkal és feladatokkal jár, amelyek megkövetelik a menedzsment adaptív készségeit.</p>
+        <img src="iimages.jpg" alt="Operatív ütemezés">
+    </section>
+
+    <section id="role">
+        <h2>A Projektmenedzser Szerepe</h2>
+        <p>A projektmenedzser a projektcsapat vezetője, aki felelős a projekt célok és követelmények meghatározásáért, a tervek kialakításáért, a csapat munkájának koordinálásáért és az eredmények monitorozásáért. Emellett a kommunikációs csatornát biztosítja a projekt érdekeltségi csoportjai között, mint például a csapat tagjai, az ügyfelek és a szállítók.</p>
+        <img src="images.jpg" alt="Fejlesztési stratégia">
+    </section>
+
+    <section id="tools">
+        <h2>Eszközök és Technikák</h2>
+        <p>A modern projektmenedzsment számos eszközt és technikát használ, hogy segítse a projektmenedzserek munkáját. Ezek az eszközök kiterjedhetnek a hagyományos Gantt-diagramoktól és ütemtervektől kezdve, a legújabb agilis és scrum módszertanokig, valamint a projektmenedzsment szoftverekig, mint például a Microsoft Project, JIRA, vagy Asana, amelyek lehetővé teszik a feladatok hatékony nyomon követését és a kommunikációt a csapatok között.</p>
+        <img src="PROJEKTMENEDZSER.jpg" alt="Projektmenedzser kulcsfontosságú elemei">
+    </section>
+
+    <section id="challenges">
+        <h2>Kihívások a Projektmenedzsmentben</h2>
+        <p>A projektmenedzsment nem mentes a kihívásoktól, beleértve a szűkös erőforrásokat, a változó piaci körülményeket és az ügyfél elvárásainak megfelelését. A kihívások kezelése stratégiai gondolkodást és kiváló problémamegoldó képességet követel, valamint rugalmasságot a változásokhoz való alkalmazkodásban.</p>
+        <img src="swot-tablazat-11-e1663244731762.jpg" alt="SWOT táblázat">
+    </section>
+
+    <footer>
+        <p>Készítette: Elek Dávid</p>
+    </footer>
+
+    <script>
+        function scrollToElement(elementId) {
+            const element = document.getElementById(elementId);
+            element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+    </script>
+
+</body>
+</html>
